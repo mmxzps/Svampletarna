@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Svampletarna - Logga in</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="login-container">
+    <h1>Svampletarna</h1>
+    <img src="svamp-logo.jpg" alt="Tecknat svamp i skogen" id="logo-image">
+
+    <form id="login-form">
+      <label for="name">Namn</label>
+      <input type="text" id="name" name="Namn">
+
+      <label for="password">Lösenord</label>
+      <input type="password" id="password" name="Lösenord">
+
+      <button type="submit">Logga in</button>
+    </form>
+
+    <p id="errorMessage"></p>
+  </div>
+
+  <div id="welcome-container" style="display: none;">
+    <h1>Svampletarna</h1>
+    <p id="welcome-text"></p>
+    <button id="logout-btn">Logga ut</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
